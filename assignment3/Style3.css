@@ -1,0 +1,49 @@
+.specialp {
+    color: #0000FF;
+    background-color: lightgreen;
+  }
+
+  #specialid {
+    color: #006600;
+    background-color: orange;
+  }
+
+  .specialx {
+    color: red;
+    background-color: purple;
+  }
+
+  .specialy {
+    color: magenta ;
+    background-color: pink;
+  }
+
+  a {
+    color: #ff0000;
+    text-decoration: none;
+  }
+
+  a:link {
+    color: red;
+  }
+
+  a:visited {
+    color: green;
+  }
+
+  a:active {
+    color: #00ffff;
+  }
+
+  a:hover {
+    color: yellow;
+    text-decoration: underline;
+  }  
+
+  #div {
+    background-color: brown;
+  }
+
+  .spanstyle {
+    color: lightblue;
+  }
