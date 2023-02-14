@@ -1,0 +1,92 @@
+body {
+  font-family: sans-serif;
+  background-image: url(chain_fork_01_p-655x437.jpg);
+}
+
+h1 {
+font-style: italic;
+font-weight: normal;
+color: orange;
+}
+
+h2 {
+  font-style: italic;
+font-weight: normal;
+color: orange;
+}
+
+h3 {
+  font-style: italic;
+font-weight: normal;
+color: orange;
+}
+
+.specialp {
+    color: #0000FF;
+    background-color: lightgreen;
+  }
+
+  #specialid {
+    color: #006600;
+    background-color: orange;
+  }
+
+  .specialx {
+    color: red;
+    background-color: purple;
+    text-align: center;
+  }
+
+  .specialy {
+    color: magenta ;
+    background-color: pink;
+    text-align: justify;
+  }
+
+  a {
+    color: #ff0000;
+    text-decoration: none;
+  }
+
+  a:link {
+    color: red;
+  }
+
+  a:visited {
+    color: green;
+  }
+
+  a:active {
+    color: #00ffff;
+  }
+
+  a:hover {
+    color: yellow;
+    text-decoration: underline;
+  }  
+
+  #div {
+    background-color: brown;
+  }
+
+  .spanstyle {
+    color: lightblue;
+  }
+
+  .imgbox {
+    border: 10px solid black;
+    background-color: yellow;
+    padding: 10px ;
+  }
+
+  .imgbox2 {
+    border: 10px solid black;
+    background-color: yellow;
+    padding: 10px;
+  }
+
+  .imgbox3 {
+    border: 10px solid black;
+    background-color: yellow;
+    padding: 10px;
+  }
