@@ -1,0 +1,55 @@
+h1 {
+    color: white;
+    }
+
+    h2 {
+        color: blue;
+    }
+
+    h3 {
+        background-color: yellow;
+    }
+
+    h4 {
+        color: yellow;
+        background-color: darkgreen;
+    }
+
+    h5 {
+        color: red;
+    }
+
+    header {
+        background-color: #0066FF;
+    }
+
+    main {
+        background-color: yellow;
+    }
+
+a {
+    color: green;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: red;
+    text-decoration: underline;
+  }  
+
+  .spanstyle {
+    color: orange;
+  }
+
+  .spanstyle2 {
+    color: blue;
+  }
+
+  .specialx {
+    color: red;
+  }
+
+  .specialp {
+    background-color: lightgreen;
+  }
+
