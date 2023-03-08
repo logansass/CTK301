@@ -1,0 +1,136 @@
+body{
+    background-image: url(assignment6/a62.png);
+}
+
+
+#wrapper {
+    width: 700px;
+    border: 3px solid rgb(0, 0, 0);
+    margin: 1em auto;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    background-color: white;
+  }
+  
+  header {
+    grid-column: span 6;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    padding-left: 24px;
+    background-color: lightblue;
+    font-family: Helvetica, sans-serif;
+    font-weight: normal;
+  }
+
+  header  h1 li a{
+    text-decoration: none;
+    list-style: none;
+    color: blue;
+    width: 100%;
+    border: 1px solid blue ;
+    display: block;
+  }
+
+  header li a:visited {
+text-decoration: none;
+  }
+  header li a:hover {
+    color: white;
+  }
+
+  body {
+    
+  }
+  
+  nav {
+    grid-column: span 6;
+    text-align: center;
+    
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 5px;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+  }
+  
+  nav li a {
+   background-color: green;
+    border: 3px solid black;
+    padding: 1em;
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin: 5px;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 1em;
+    width: 120px;
+  }
+  nav li a:hover {
+    background-color: darkblue;
+    color: white;
+  }
+  
+  main {
+    grid-column: span 4;
+    margin-left: 24px;
+  }
+  
+  main img {
+    width: 240px;
+    float: right;
+    margin-right: 24px;
+    margin-bottom: 1em;
+  }
+  
+  .header2{
+    border-bottom: 3px solid white;
+
+  }
+  aside {
+    grid-column: span 2;
+    border: 3px solid rgb(67, 98, 198);
+    margin: 20px;
+    padding: 0px 24px 24px 24px;
+    background-color: rgb(108, 108, 222);
+    color: white;
+  }
+  
+  footer {
+    grid-column: span 6;
+    background-color: lightblue;
+    padding-left: 24px;
+    border-top: 3px solid black;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+  }
+
+  nav ul {
+    text-decoration: none;
+    list-style-type: none;
+  }
+
+  h2{
+    border-bottom: 3px solid black;
+    padding-botto: 3px;
+  }
+  
+  .italics{
+    font-style: italic;
+  }
+
+  a{
+    text-decoration: none;
+    font-weight: bold;
+    color: green;
+  }
+
+  p{
+    font-family: Georgia, serif;
+  }
+
+  
