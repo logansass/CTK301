@@ -1,0 +1,105 @@
+body {
+  background-color: #999999;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: black;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+   /* This is for the dummy columns, replace or delete */
+}
+
+header {
+    grid-column: span 12;
+    
+}
+
+header>h1{
+    text-align: center;
+    font-family: helvetica;
+    color: #0349fc;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    font-size: 72px;
+}
+
+#featureimg {
+    grid-column: span 8;
+    width: 100%;
+}
+
+nav {
+    grid-column: span 4;
+    border: 0px solid red;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+nav li a {
+    display: block;
+    background-color: #0349fc;
+    color: white;
+    font-family: helvetica;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 32px;
+    padding: 24px;
+    margin-bottom: 36px;
+
+}
+
+nav li a:hover {
+    background-color: darkblue;
+}
+
+main {
+    grid-column: span 12;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 24px;
+}
+
+section h2 {
+color: #0349fc;
+font-family: helvetica;
+text-transform: uppercase;
+border-bottom: 5px solid #0349fc ;
+}
+
+section {
+    color: #0349fc;
+}
+section img {
+    width: 100%;
+    
+}
+
+footer {
+    grid-column: span 12;
+    grid-column: span 12;
+    background-color: #0349fc;
+    font-family: helvetica;
+    color: white;
+    padding-left: 24px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+footer img {
+    float: left;
+    margin-top: 25px;
+}
+
+
+
