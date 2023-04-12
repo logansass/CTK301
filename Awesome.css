@@ -16,21 +16,25 @@ body {
 
 header {
     grid-column: span 12;
-    
 }
 
 header>h1{
     text-align: center;
-    font-family: helvetica;
+    font-family: 'Lato',helvetica;
     color: #0349fc;
     text-transform: uppercase;
     margin-bottom: 24px;
     font-size: 72px;
 }
 
+aside {
+    grid-column: span 12;
+}
+
 #featureimg {
     grid-column: span 8;
     width: 100%;
+    border-radius: 10px;
 }
 
 nav {
@@ -56,6 +60,10 @@ nav li a {
     font-size: 32px;
     padding: 24px;
     margin-bottom: 36px;
+    text-shadow: 2px 2px 2px #000;
+    transition: background-color 1.0s, width 2.0s, color 2.0s;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
 
 }
 
@@ -82,6 +90,7 @@ section {
 }
 section img {
     width: 100%;
+    border-radius: 10px;
     
 }
 
@@ -94,11 +103,15 @@ footer {
     padding-left: 24px;
     font-size: 32px;
     font-weight: bold;
+    text-shadow: 2px 2px 2px #000;
 }
 
 footer img {
     float: left;
     margin-top: 25px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #666;
+    margin-right: 5px;
 }
 
 
