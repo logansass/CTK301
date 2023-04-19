@@ -114,5 +114,18 @@ footer img {
     margin-right: 5px;
 }
 
+#myCarousel {
+    grid-column: span 8;
+    width: 800px;
+}
+
+#myCarousel img {
+    width: 100%;
+  }
+
+div {
+    grid-column: span 8;
+}
+
 
 
