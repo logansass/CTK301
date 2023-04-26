@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Logan's Awesome Site</title>
+	
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
+
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" /> 
+
+<link href="Awesome.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+	<div id="wrapper">
+        <header>
+            <h1>Photoshop Work </h1>
+            </header>
+
+            <aside> <p></p>
+            </aside>
+		
+            <nav>
+                <ul>
+                    <li><a href="Awesome.html">Home</a></li>
+                    <li><a href="premierepro.html">Premiere Pro</a></li>
+                     <li><a href="photoshop.html">Photoshop</a></li>
+                    <li><a href="aboutme.html">About Me</a></li>
+
+                </ul>
+
+            </nav>
+            <div id="myCarousel" class="f-carousel">
+                <div class="f-carousel__slide"><img id="featureimg"src="Elden Ring Ending Final.png"></div>
+                <div class="f-carousel__slide"><img id="featureimg"src="Elden Ring Stream Last Final.png"></div>
+                
+                </div>
+            
+        <main>
+            <section>
+                <h2>
+                    Project 1
+                </h2>
+                <img id="featurevid"src="FPS Chess Final.png" >
+
+                <p>This is a thumbnail for a youtube video about a short indie game called FPS Chess. This game is all about playing chss and then fighting your friends in a frist person perspective of the chess pieces. </p>
+
+            </section>
+            <section>
+                <h2>
+                    Project 2
+                </h2>
+                <img id="featurevid"src="Hogwarts Legacy _1 Final.png">
+
+                <p>This project was made for a Youtube video about the game Hogwarts Legacy. This game is all about the wizarding world of Harry Potter. </p>
+
+            </section>
+            <section>
+                <h2>
+                    Project 3
+                </h2>
+                <img id="featurevid"src="Hogwarts Legacy Stream _3 Final.png">
+
+                <p>Project 3 is another thumbnail for YouTube and is based on Hogwarts Legacy. </p>
+
+            </section>
+            
+        </main>
+
+        <footer>
+            <img src="Channel Profile Picture.png" alt="Logo" style="width:50px;"> <p> Copyright Logan Sass <a href="https://www.instagram.com/hunterrulesreal/" target="_blank" class="bi bi-instagram"></a> <a href="https://www.youtube.com/@HunterRules/featured" target"_blank" class="bi bi-youtube"></a></p>
+        </footer>
+	</div>
+    <script >
+        Fancybox.bind("[data-fancybox]", {
+          // Your custom options
+        });
+      
+        const container = document.getElementById("myCarousel");
+          const options = { infinite: false };
+          new Carousel(container, options);
+      
+        </script>
+</body>
+</html>

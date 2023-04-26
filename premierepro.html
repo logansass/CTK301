@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Logan's Awesome Site</title>
+	
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
+
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" /> 
+
+<link href="Awesome.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+	<div id="wrapper">
+        <header>
+            <h1>Premiere Pro Work </h1>
+            </header>
+
+            <aside> <p></p>
+            </aside>
+		
+            <nav>
+                <ul>
+                    <li><a href="Awesome.html">Home</a></li>
+                    <li><a href="premierepro.html">Premiere Pro</a></li>
+                     <li><a href="photoshop.html">Photoshop</a></li>
+                    <li><a href="aboutme.html">About Me</a></li>
+
+                </ul>
+
+            </nav>
+            <div id="myCarousel" class="f-carousel">
+                <div class="f-carousel__slide"><iframe id="featureimg" width="560" height="443" src="https://www.youtube.com/embed/aTVzp3kgLYg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+                <div class="f-carousel__slide"><iframe id="featureimg" width="560" height="443" src="https://www.youtube.com/embed/wgmqiXKZ60I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+                
+                </div>
+            
+        <main>
+            <section>
+                <h2>
+                    Project 1
+                </h2>
+                <iframe  id="featurevid" width="360" height="415" src="https://www.youtube.com/embed/eiDmaO6aC44" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                
+
+                <p>This is a video review about the movie John Wick Chapter 4. I filmed and edited this entire video myself and posted it to Youtube.</p>
+
+            </section>
+            <section>
+                <h2>
+                    Project 2
+                </h2>
+                <iframe id="featurevid" width="360" height="415" src="https://www.youtube.com/embed/Q0FTm4kb8GQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                <p>This video is about a horror game called The Callisto Protocol. I played this game and filmed it and edited it for Youtube but cutting up clips and putting them together to make a cohesive story.</p>
+
+            </section>
+            <section>
+                <h2>
+                    Project 3
+                </h2>
+                <iframe id="featurevid" width="360" height="415" src="https://www.youtube.com/embed/pTfHwZsA67U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                <p>This project was another video for Youtube of me playing a game and recording it. This video is made from a cut up livestream that was done a week prior to this video.</p>
+
+            </section>
+            
+        </main>
+
+        <footer>
+            <img src="Channel Profile Picture.png" alt="Logo" style="width:50px;"> <p> Copyright Logan Sass <a href="https://www.instagram.com/hunterrulesreal/" target="_blank" class="bi bi-instagram"></a> <a href="https://www.youtube.com/@HunterRules/featured" target"_blank" class="bi bi-youtube"></a></p>
+        </footer>
+	</div>
+    <script >
+        Fancybox.bind("[data-fancybox]", {
+          // Your custom options
+        });
+      
+        const container = document.getElementById("myCarousel");
+          const options = { infinite: false };
+          new Carousel(container, options);
+      
+        </script>
+</body>
+</html>
