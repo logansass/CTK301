@@ -29,7 +29,7 @@ header>h1{
 
 aside {
     grid-column: span 12;
-    color: #0349fc;
+    color: white;
     text-align: justify;
 }
 
@@ -100,7 +100,7 @@ border-bottom: 5px solid #0349fc ;
 }
 
 section {
-    color: #0349fc;
+    color: white;
 }
 section img {
     width: 100%;
